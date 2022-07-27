@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <main class="card">
+        <section class="card__left">
+          <!-- <img src="images/drawers.jpg" alt="Art" class="card__img" /> -->
+        </section>
+        <section class="card__right">
+          <div class="card__text">
+
+          <h2 class="card__heading">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
+          <p class="card__paragraph">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare uninviting. I’ve got some simple tips to help you
+            make any room feel complete.
+          </p>
+        </div>
+
+          <div class="info">
+            <div class="aurthor">
+
+              <img
+              src="images/avatar-michelle.jpg"
+              alt="Michelle"
+              class="info__img"
+              />
+              <div class="info__text">
+                <p class="info__text--name">Michelle Appleton</p>
+                <p class="info__text--data">28 Jun 2020</p>
+              </div>
+            </div>
+
+            <div class="info__share">
+              <div class="info__btn ">
+                <svg class="share">
+                  <use xlink:href="images/sprite.svg#icon-mail-forward" class="icon-share"></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="share__panel">
+              <ul class="share__icons">
+                <p class="share__text">Share</p>
+                <li class="share__icon">
+                  <a href="">
+
+                    <svg class="icon__box">
+                      <use xlink:href="images/sprite.svg#icon-facebook-official" class="icon"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="share__icon">
+                  <a href="">
+
+                    <svg class="icon__box">
+                      <use xlink:href="images/sprite.svg#icon-twitter" class="icon"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="share__icon">
+                  <a href="">
+
+                    <svg class="icon__box">
+                      <use xlink:href="images/sprite.svg#icon-pinterest-square" class="icon"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <footer class="footer">
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+          >. Coded by <a href="https://www.linkedin.com/in/abdelrahmantolba/">Abdelrahman Tolba</a>.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
